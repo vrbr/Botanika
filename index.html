@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Botanika - цветы в Петербурге</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+	<header class="header">
+		<nav class="header__nav">
+			<ul class="header__nav-list">
+				<li class="header__nav-item">
+					<a class="header__nav-link" href="#">Каталог</a>
+				</li>
+				<li class="header__nav-item">
+					<a class="header__nav-link" href="#">Доставка и оплата</a>
+				</li>
+				<li class="header__nav-item item-left">
+					<a class="header__nav-link" href="#">Отзывы</a>
+				</li>
+				<li class="header__nav-item item-right">
+					<a class="header__nav-link" href="#">Спецпредложения</a>
+				</li>
+				<li class="header__nav-item">
+					<a class="header__nav-link" href="#">Контакты</a>
+				</li>
+				<li class="header__nav-item">
+					<a class="header__nav-link" href="#">Корзина</a>
+				</li>
+			</ul>			
+		</nav>
+		<a class="header__logo" href="#">
+			<img class="logo" src="img/logo_header.svg" alt="Botanika" width="100" height="33">
+		</a>
+		<h1 class="visually-hidden">Botanika</h1>
+	</header>
+	<div class="container">
+		<section class="main">
+			<div class="main__info">
+				<h2 class="main__title">Авторские букеты в <em>Петербурге</em></h2>
+				<p class="main__text">Оригинальные свежие букеты с доставкой по всему городу</p>
+				<a class="main__btn btn" href="#">Смотреть каталог</a>
+			</div>
+			<div class="main__photo">
+				<div class="main__img1"></div>
+				<div class="main__img2"></div>
+			</div>
+		</section>
+		<section class="advantage">
+			<h2 class="visually-hidden">Преимущества</h2>
+			<dl class="advantage__list">
+				<div class="advantage__item advantage__item-first">
+					<dt class="advantage__dt">Быстрая доставка</dt>
+					<dd class="advantage__dd">Можем собрать букет и передать его в доставку всего за час.</dd>
+				</div>
+				<div class="advantage__item advantage__item-second">
+					<dt class="advantage__dt">Всегда свежие цветы</dt>
+					<dd class="advantage__dd">Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</dd>
+				</div>
+				<div class="advantage__item advantage__item-third">
+					<dt class="advantage__dt">Отправляем фото цветов</dt>
+					<dd class="advantage__dd">Перед доставкой сделаем фотографию букета и отправим вам.</dd>
+				</div>
+			</dl>
+		</section>
+		<section class="popular">
+			<h2 class="popular__title">Популярные букеты</h2>
+			<div class="popular__cart">
+				<div class="popular__cart-inner">
+					<p class="cart__title">Букет «Нежность»</p>
+					<p class="cart__info">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+					<p class="cart__size">30 × 40 см</p>
+					<p class="cart__price">3600 руб.</p>
+					<button type="button" class="popular-btn btn">Заказать</button>
+				</div>
+				<div class="popular__cart-img">
+					<img src="img/bouquet_tenderness.png" alt="Букет" width="387" height="438">
+				</div>
+			</div>
+			<div class="popular__arrows">
+				<button type="button" class="prev"></button>
+				<button type="button" class="next"></button>
+			</div>
+		</section>
+		<section class="catalog">
+			<h2 class="visually-hidden">Разделы каталога</h2>
+			<dl class="catalog__list">
+				<a class="catalog__link catalog__link-first" href="#">
+					<dt class="catalog__dt">Свадебные букеты</dt>
+					<dd class="catalog__dd">Букеты для невест</dd>
+				</a>
+				<a class="catalog__link catalog__link-second" href="#">
+					<dt class="catalog__dt">Букеты с пионами</dt>
+					<dd class="catalog__dd">Букеты с сезонными пионами</dd>
+				</a>
+				<a class="catalog__link catalog__link-third" href="#">
+					<dt class="catalog__dt">Выбрать букет</dt>
+					<dd class="catalog__dd">Букеты в ассортименте</dd>
+				</a>
+			</dl>
+		</section>
+		<section class="sale">
+			<h2 class="visually-hidden">Скидка</h2>
+			<div class="sale__banner">
+				<div class="sale__info">
+					<p class="sale__title">Скидка 10%<br>на первый заказ</p>
+					<p class="sale__desk">Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
+				</div>
+				<div class="sale__img"></div>
+			</div>
+		</section>
+		<section class="steps">
+			<h2 class="steps__title">4 шага к идеальному букету</h2>
+			<dl class="steps__list">
+				<div class="steps__item steps__item-first">
+					<dt class="steps__dt">Заказ</dt>
+					<dd class="steps__dd">Выберите понравившийся букет из каталога и оформите заказ</dd>
+				</div>
+				<div class="steps__item steps__item-second">
+					<dt class="steps__dt">Уточнение деталей</dt>
+					<dd class="steps__dd">Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</dd>
+				</div>
+				<div class="steps__item steps__item-third">
+					<dt class="steps__dt">Оплата</dt>
+					<dd class="steps__dd">Оплатить заказ можно онлайн на сайте или при получении</dd>
+				</div>
+				<div class="steps__item steps__item-fourth">
+					<dt class="steps__dt">Доставка</dt>
+					<dd class="steps__dd">Курьер позвонит за час до прибытия и доставит заказ вовремя</dd>
+				</div>
+			</dl>
+		</section>
+		<section class="social">
+			<div class="social__wrapper">
+				<div class="social__info">
+					<h2 class="social__title">Следите за нашими новостями</h2>
+					<p class="social__text">Подписывайтесь на наши соцсети и узнавайте<br>о новинках и акциях первым.</p>
+					<ul class="social__list">
+						<li class="social__item">
+							<a class="social__link instagram" href="#" alt="instagram">
+								<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5.84581 0C2.6218 0 0 2.60401 0 5.80437V14.1971C0 17.3974 2.6218 20 5.84581 20H14.3512C17.5752 20 20.197 17.3974 20.197 14.1971V5.80437C20.197 2.60401 17.5752 0 14.3512 0H5.84581ZM5.84581 1.71935H14.3512C16.6458 1.71935 18.4664 3.52664 18.4664 5.80437V14.1971C18.4664 16.4748 16.6458 18.2807 14.3512 18.2807H5.84581C3.55123 18.2807 1.73203 16.4748 1.73203 14.1971V5.80437C1.73203 3.52664 3.55123 1.71935 5.84581 1.71935ZM15.5189 3.43867C14.8499 3.43867 14.3078 3.97676 14.3078 4.64091C14.3078 5.30507 14.8499 5.84315 15.5189 5.84315C16.188 5.84315 16.73 5.30507 16.73 4.64091C16.73 3.97676 16.188 3.43867 15.5189 3.43867ZM10.0985 4.85061C7.24365 4.85061 4.91107 7.16609 4.91107 10C4.91107 12.8339 7.24365 15.1494 10.0985 15.1494C12.9534 15.1494 15.2874 12.8339 15.2874 10C15.2874 7.16609 12.9534 4.85061 10.0985 4.85061ZM10.0985 6.56996C12.0175 6.56996 13.5553 8.09513 13.5553 10C13.5553 11.9049 12.0175 13.43 10.0985 13.43C8.17955 13.43 6.6431 11.9049 6.6431 10C6.6431 8.09513 8.17955 6.56996 10.0985 6.56996Z" fill="#D89999"/>
+								</svg>
+							</a>
+						</li>
+						<li class="social__item">
+							<a class="social__link facebook" href="#" alt="facebook">
+								<svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M8.46041 0C5.45614 0 3.39869 1.65638 3.39869 4.69933V7.32182H0V10.8784H3.39869V20H7.46134V10.8784H10.8506L11.3596 7.32182H7.46134V5.05071C7.46134 4.02128 7.77835 3.31953 9.41206 3.31953H11.4955V0.139979C11.1352 0.0966486 9.89947 0 8.46041 0Z" fill="#D89999"/>
+								</svg>
+							</a>
+						</li>
+						<li class="social__item">
+							<a class="social__link twitter" href="#" alt="twitter">
+								<svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M25.7588 2.36717C24.8116 2.76883 23.7929 3.04029 22.7241 3.16259C23.8149 2.53743 24.6525 1.54801 25.0471 0.36927C24.0262 0.948099 22.8956 1.36795 21.6913 1.59426C20.7278 0.613218 19.3544 0 17.8345 0C14.9158 0 12.5503 2.26041 12.5503 5.04887C12.5503 5.44474 12.5966 5.83021 12.687 6.19951C8.29503 5.98923 4.40126 3.97853 1.79486 0.924148C1.33997 1.66952 1.07939 2.53671 1.07939 3.46218C1.07939 5.21411 2.01193 6.75926 3.43028 7.66504C2.56407 7.63916 1.74915 7.41194 1.03665 7.03349C1.03563 7.05477 1.03563 7.07575 1.03563 7.09687C1.03563 9.54362 2.8574 11.5838 5.27461 12.048C4.83157 12.1634 4.36482 12.2244 3.88283 12.2244C3.54197 12.2244 3.2115 12.1936 2.88828 12.1344C3.56119 14.1402 5.51239 15.6002 7.82521 15.641C6.01517 16.9955 3.73697 17.8022 1.26097 17.8022C0.834721 17.8022 0.413742 17.7783 0 17.7319C2.33958 19.1644 5.11689 20 8.10148 20C17.8212 20 23.1358 12.3067 23.1358 5.63404C23.1358 5.41524 23.1305 5.19793 23.1209 4.9814C24.1529 4.26896 25.0487 3.37993 25.7576 2.36721" fill="#D89999"/>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="social__img">
+					<div class="social__img-first"></div>
+					<div class="social__img-second"></div>
+					<div class="social__img-third"></div>
+				</div>
+			</div>
+		</section>
+		<section class="reviews">
+			<h2 class="reviews__title">Отзывы</h2>
+			<div class="reviews__wrapper">
+				<blockquote class="reviews__blockquote">
+					<p class="reviews__text">
+						Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!
+					</p>
+					<cite class="reviews__name">
+						Марина
+					</cite>
+				</blockquote>
+				<blockquote class="reviews__blockquote">
+					<p class="reviews__text">
+						Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень понравился, буду ещё заказывать!
+					</p>
+					<cite class="reviews__name">
+						Татьяна
+					</cite>
+				</blockquote>
+				<blockquote class="reviews__blockquote">
+					<p class="reviews__text">
+						Выбор букетов на любой вкус и цену. Бывают хорошие скидки, а флористы всегда помогут и точно соберут красивый букет!
+					</p>
+					<cite class="reviews__name">
+						Ольга
+					</cite>
+				</blockquote>
+			</div>
+		</section>
+	</div>
+	<section class="contacts">
+		<div class="contacts__cart">
+			<h2 class="contacts__title">Мы ждем вас</h2>
+			<dl class="contacts__list">
+				<dt class="contacts__dt contacts__main-dt">Приходите к нам:</dt>
+				<dd class="contacts__dd">
+					<a class="contacts__link" href="https://www.google.com/maps/place/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F+%D0%9A%D0%BE%D0%BD%D1%8E%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%83%D0%BB.,+19,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+191186/@59.9387942,30.3208946,17z/data=!4m13!1m7!3m6!1s0x4696310fca5ba729:0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!3b1!8m2!3d59.9387942!4d30.3230833!3m4!1s0x4696310fca5ba729:0xea9c53d4493c879f!8m2!3d59.9387942!4d30.3230833">Санкт-Петербург,<br>ул. Большая Конюшенная, 19</a>
+				</dd>
+				<dt class="contacts__dt">Режим работы:</dt>
+				<dd class="contacts__dd">
+					<a class="contacts__link">Пн-Вск, с 9-00 до 20-00</a>
+				</dd>
+				<dt class="contacts__dt">Позвоните нам:</dt>
+				<dd class="contacts__dd">
+					<a class="contacts__link" href="tel:+78129834719">+ 7 (812) 983-47-19</a>
+				</dd>
+				<dt class="contacts__dt">Напишите нам:</dt>
+				<dd class="contacts__dd">
+					<a class="contacts__link" href="mailto:info@botanika.ru">info@botanika.ru</a>
+				</dd>
+			</dl>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<a class="footer__link" href="#"><img src="img/logo_footer.svg" alt="Botanika" width="100" height="33"></a>
+				<div class="footer__nav">
+					<ul class="footer__nav-list">
+						<li class="footer__nav-item">
+							<a class="footer__nav-link" href="#">Каталог</a>
+						</li>
+						<li class="footer__nav-item">
+							<a class="footer__nav-link" href="#">Доставка</a>
+						</li>
+						<li class="footer__nav-item">
+							<a class="footer__nav-link" href="#">Отзывы</a>
+						</li>
+						<li class="footer__nav-item">
+							<a class="footer__nav-link" href="#">Спецпредложения</a>
+						</li>
+						<li class="footer__nav-item">
+							<a class="footer__nav-link" href="#">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="footer__social">
+					<li class="footer__social-item">
+						<a class="footer__social-link" alt="instagram" href="#">
+							<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M5.84581 0C2.6218 0 0 2.60401 0 5.80437V14.1971C0 17.3974 2.6218 20 5.84581 20H14.3512C17.5752 20 20.197 17.3974 20.197 14.1971V5.80437C20.197 2.60401 17.5752 0 14.3512 0H5.84581ZM5.84581 1.71935H14.3512C16.6458 1.71935 18.4664 3.52664 18.4664 5.80437V14.1971C18.4664 16.4748 16.6458 18.2807 14.3512 18.2807H5.84581C3.55123 18.2807 1.73203 16.4748 1.73203 14.1971V5.80437C1.73203 3.52664 3.55123 1.71935 5.84581 1.71935ZM15.5189 3.43867C14.8499 3.43867 14.3078 3.97676 14.3078 4.64091C14.3078 5.30507 14.8499 5.84315 15.5189 5.84315C16.188 5.84315 16.73 5.30507 16.73 4.64091C16.73 3.97676 16.188 3.43867 15.5189 3.43867ZM10.0985 4.85061C7.24365 4.85061 4.91107 7.16609 4.91107 10C4.91107 12.8339 7.24365 15.1494 10.0985 15.1494C12.9534 15.1494 15.2874 12.8339 15.2874 10C15.2874 7.16609 12.9534 4.85061 10.0985 4.85061ZM10.0985 6.56996C12.0175 6.56996 13.5553 8.09513 13.5553 10C13.5553 11.9049 12.0175 13.43 10.0985 13.43C8.17955 13.43 6.6431 11.9049 6.6431 10C6.6431 8.09513 8.17955 6.56996 10.0985 6.56996Z" fill="white"/>
+							</svg>
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a class="footer__social-link" alt="facebook" href="#">
+							<svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M8.46041 0C5.45614 0 3.39869 1.65638 3.39869 4.69933V7.32182H0V10.8784H3.39869V20H7.46134V10.8784H10.8506L11.3596 7.32182H7.46134V5.05071C7.46134 4.02128 7.77835 3.31953 9.41206 3.31953H11.4955V0.139979C11.1352 0.0966486 9.89947 0 8.46041 0Z" fill="white"/>
+							</svg>
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a class="footer__social-link" alt="twitter" href="#">
+							<svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M25.7588 2.36717C24.8116 2.76883 23.7929 3.04029 22.7241 3.16259C23.8149 2.53743 24.6525 1.54801 25.0471 0.36927C24.0262 0.948099 22.8956 1.36795 21.6913 1.59426C20.7278 0.613218 19.3544 0 17.8345 0C14.9158 0 12.5503 2.26041 12.5503 5.04887C12.5503 5.44474 12.5966 5.83021 12.687 6.19951C8.29503 5.98923 4.40126 3.97853 1.79486 0.924148C1.33997 1.66952 1.07939 2.53671 1.07939 3.46218C1.07939 5.21411 2.01193 6.75926 3.43028 7.66504C2.56407 7.63916 1.74915 7.41194 1.03665 7.03349C1.03563 7.05477 1.03563 7.07575 1.03563 7.09687C1.03563 9.54362 2.8574 11.5838 5.27461 12.048C4.83157 12.1634 4.36482 12.2244 3.88283 12.2244C3.54197 12.2244 3.2115 12.1936 2.88828 12.1344C3.56119 14.1402 5.51239 15.6002 7.82521 15.641C6.01517 16.9955 3.73697 17.8022 1.26097 17.8022C0.834721 17.8022 0.413742 17.7783 0 17.7319C2.33958 19.1644 5.11689 20 8.10148 20C17.8212 20 23.1358 12.3067 23.1358 5.63404C23.1358 5.41524 23.1305 5.19793 23.1209 4.9814C24.1529 4.26896 25.0487 3.37993 25.7576 2.36721" fill="white"/>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+	</footer>
+</body>
+</html>
