@@ -38,6 +38,7 @@ body{
 	background-color: #D89999;
 	border-radius: 40px;
 	border: none;
+	cursor: pointer;
 }
 img {
 	width: 100%;
@@ -227,6 +228,7 @@ h1, h2, h3, p {
 	background-color: transparent;
 	width: 51px;
 	height: 16px;
+	cursor: pointer;
 }
 .popular__arrows button:before {
 	position: absolute;
@@ -280,10 +282,10 @@ h1, h2, h3, p {
 	background:  linear-gradient(to right, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)), url('../img/wedding_bouquets.jpg');
 }
 .catalog__link-second {
-	background:  linear-gradient(to right, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)), url('/img/bouquets_with_peonies.jpg');
+	background:  linear-gradient(to right, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)), url('../img/bouquets_with_peonies.jpg');
 }
 .catalog__link-third {
-	background:  linear-gradient(to right, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)), url('/img/choose_a_bouquet.jpg');
+	background:  linear-gradient(to right, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)), url('../img/choose_a_bouquet.jpg');
 }
 
 /*sale*/
@@ -384,7 +386,7 @@ h1, h2, h3, p {
 .social__wrapper {
 	display: flex;
 	justify-content: space-between;
-	min-height: 460px;
+	max-height: 460px;
 }
 .social__info {
 	padding: 70px 138px 107px 0;
